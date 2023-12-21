@@ -3,7 +3,7 @@ import "./FrontPage.scss";
 
 export function FrontPage() {
   return (
-    <body>
-    </body>
+    <div id="frontPage">
+    </div>
   );
 }

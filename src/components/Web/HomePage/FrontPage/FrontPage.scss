@@ -1,15 +1,27 @@
-body {
+#frontPage {
+    width: 100%;
+    height: 70em;
+    max-height: 3899px;
     background-image: url("../../../../assets/Images/Images/FrontPage.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 
-@media only screen and (max-width: 800px) {
-    body {
-        background-image: url("../../../../assets/Images/Images/MyVision.jpg");
+@media only screen and (max-width: 700px) {
+    #frontPage {
+        background-image: url("../../../../assets/Images/Images/Ballon.jpg");
         background-position: center center;
         background-repeat: no-repeat;
+        background-size: cover;
         background-size: 50rem;
     }
-  }
+}
+
+@media only screen and (max-height: 800px) {
+    #frontPage {
+        height: 41rem;
+    }
+}
