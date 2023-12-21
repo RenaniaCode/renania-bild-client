@@ -1,0 +1,26 @@
+@import "~/src/scss/index.scss";
+
+.auth {
+    background-color: grey;
+
+    &__forms {
+        width: 450px;
+
+        .ui.menu {
+            .item {
+                width: 50%;
+                justify-content: center;
+                background-color: #fff !important;
+                border-radius: 0 !important;
+                border-top: 4px solid grey !important;
+                font-size: 18px;
+
+                &.active {
+                    font-weight: normal;
+                    border-radius: 0 !important;
+                    border-top-color: blueviolet !important;
+                }
+            }
+        }
+    }
+}

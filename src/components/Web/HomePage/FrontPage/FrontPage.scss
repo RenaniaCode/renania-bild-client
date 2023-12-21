@@ -1,0 +1,15 @@
+body {
+    background-image: url("../../../../assets/Images/Images/FrontPage.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-image: url("../../../../assets/Images/Images/MyVision.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 50rem;
+    }
+  }
