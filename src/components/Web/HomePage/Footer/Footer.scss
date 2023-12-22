@@ -1,0 +1,34 @@
+#footerBox {
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#brands {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#algorithmLogo {
+    width: 25rem;
+}
+#renaniaLogo {
+    width: 19rem;
+    margin-right: 3rem;
+}
+
+
+#socialMedia {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socialIcon {
+    width: 3rem;
+}
