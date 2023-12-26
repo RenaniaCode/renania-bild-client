@@ -19,13 +19,13 @@ export function Footer(props) {
             </a>
         </div>
         <div id="socialMedia">
-            <a>
+            <a href={instagram}>
             <img src={InstagramIcon} alt="InstagramIcon" className="socialIcon"/>
             </a>
-            <a>
+            <a href={gmail}>
             <img src={EmailIcon} alt="EmailIcon" className="socialIcon"/>
             </a>
-            <a>
+            <a href={whatsapp}>
             <img src={WhatsappIcon} alt="WhatsappIcon" className="socialIcon"/>
             </a>
         </div>
