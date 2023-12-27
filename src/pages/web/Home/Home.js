@@ -14,7 +14,7 @@ export function Home() {
       title={"Retrato"} 
       description={"Llevaré tu imagen al siguiente nivel. Conoce un poco de mis trabajos de retrato."}
       image={PortraitExample}
-      href={"#"}
+      href={"/Galleries/Retrato"}
       />
       <Services 
       reverse={true}

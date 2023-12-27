@@ -6,7 +6,7 @@ export function Navbar() {
   return (
     <nav id="nav">
       <div id="navMenu">
-        <a>
+        <a href="/">
           <img src={BlackVersionLogo} alt="renaniaBildLogo" id="navLogo"/>
         </a>
         <a><span className="navOptions">Servicios</span></a>

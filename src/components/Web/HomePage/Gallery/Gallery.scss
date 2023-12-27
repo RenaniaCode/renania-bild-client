@@ -1,0 +1,28 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
+#GalleryBox {
+    background-color: #000;
+    width: 100%;
+    padding-top: 8rem;
+};
+
+.image-gallery-content {
+    width: 70%;
+    margin: auto;
+}
+
+.image-gallery-icon,
+.image-gallery-left-nav {
+    margin-left: 10%;
+}
+
+.image-gallery-icon,
+.image-gallery-right-nav {
+    margin-right: 10%;
+}
+
+.image-gallery-fullscreen-button {
+    position: fixed;
+    margin-bottom: 60%;
+    width: 100px;
+}
