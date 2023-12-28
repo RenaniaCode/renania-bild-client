@@ -14,7 +14,7 @@ export function Footer(props) {
             <a>
             <img src={AlgorithmLogo} alt="10001 Algorithm Logo" id="algorithmLogo"/>
             </a>
-            <a>
+            <a href="/">
             <img src={RenaniaLogo} alt="Renania Bild Logo" id="renaniaLogo"/>
             </a>
         </div>
