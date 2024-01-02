@@ -14,7 +14,7 @@ if (location === "/Galleries/Potrait") {
           items={Potrait}
           showPlayButton={false}
           thumbnailPosition="right"
-          showBullets={true}
+          showBullets={false}
         />
       </div>
     );
@@ -27,7 +27,7 @@ if (location === "/Galleries/Potrait") {
           items={MyVision}
           showPlayButton={false}
           thumbnailPosition="right"
-          showBullets={true}
+          showBullets={false}
         />
       </div>
     );
@@ -40,7 +40,7 @@ if (location === "/Galleries/Potrait") {
           items={Events}
           showPlayButton={false}
           thumbnailPosition="right"
-          showBullets={true}
+          showBullets={false}
         />
       </div>
     );
