@@ -16,7 +16,7 @@ export function Services(props) {
                 <a href={href}><img src={BlackButton} alt="Black Button" className="blackButton"/></a>
               </div>
           </div>
-          <img src={image} alt={`${title} Example`} id="exampleImg"/>
+            <img src={image} alt={`${title} Example`} id="exampleImg"/>
       </div>
       );
     }

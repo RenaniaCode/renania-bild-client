@@ -14,21 +14,21 @@ export function Home() {
       title={"Retrato"} 
       description={"Llevaré tu imagen al siguiente nivel. Conoce un poco de mis trabajos de retrato."}
       image={PortraitExample}
-      href={"/Galleries/Retrato"}
+      href={"/Galleries/Potrait"}
       />
       <Services 
       reverse={true}
       title={"Eventos"} 
       description={"Llevaré tu imagen al siguiente nivel. Conoce un poco de mis trabajos de retrato."}
       image={EventExample}
-      href={"#"}
+      href={"/Galleries/Events"}
       />
       <Services 
       reverse={false}
       title={"Mi Visión"} 
       description={"Conoce mi estilo al inmortalizar los momentos a través de una colección mas personal"}
       image={MiVisionExample}
-      href={"#"}
+      href={"/Galleries/MyVision"}
       />
       <Footer 
       instagram={"https://www.instagram.com/renaniabild?igsh=MTJoN2Z6d24weGM3bg=="}

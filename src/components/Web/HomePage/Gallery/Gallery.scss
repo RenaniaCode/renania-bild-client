@@ -9,16 +9,27 @@
 .image-gallery-content {
     width: 70%;
     margin: auto;
+    top: 50%;
+}
+.image-gallery-image {
+    margin: auto;
+    margin-top: 1rem;
+}
+.image-gallery-slide,
+.image-gallery-center {
+    margin: auto;
+    top: 50%;
+    margin-top: 0%;
 }
 
 .image-gallery-icon,
 .image-gallery-left-nav {
-    margin-left: 10%;
+    margin-left: 0%;
 }
 
 .image-gallery-icon,
 .image-gallery-right-nav {
-    margin-right: 10%;
+    margin-right: 0%;
 }
 
 .image-gallery-fullscreen-button {
