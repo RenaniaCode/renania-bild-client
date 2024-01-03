@@ -1,27 +1,17 @@
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
 #GalleryBox {
-    position: sticky;
     background-color: #000;
     width: 100%;
-    margin: auto;
-    overflow: scroll;
+    padding-top: 9rem;
 };
 
-.image-gallery-thumbnail-image {
-    width: 10rem;
-}
-
-.image-gallery-thumbnails-right {
-    padding-top: 8rem;
-    height: 50rem;
-}
-
-.image-gallery-content 
-.image-gallery-thumbnails-right {
-    width: 30%;
-}
-
 .image-gallery-fullscreen-button {
-    position: absolute;
+    position: fixed;
     margin-bottom: 40%;
-    width: 100px;
+
+}
+
+.fullscreen {
+    padding-top: 3rem;
 }
