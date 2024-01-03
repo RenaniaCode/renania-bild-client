@@ -11,17 +11,18 @@
     z-index: +2;
 }
 #navMenu {
-    width: 40rem;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 #navLogo {
-    width: 12rem;
+    width: 13rem;
 }
 .navOptions {
     font-size: 1.3rem;
     color: #E3C367;
+    width: fit-content;
     font-family: 'Permanent Marker', cursive;
 }
 .navOptions:hover {
