@@ -1,0 +1,38 @@
+#subNav {
+    position: fixed;
+    width: 100%;
+    height: 3rem;
+    font-size: 10px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: +2;
+    margin-top: 8rem;
+    padding-left: 3rem;
+}
+
+#subNavMenu {
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.subNavOptions {
+    font-size: 1rem;
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.subNavOptions:hover {
+    font-size: 1rem;
+    color: #E3C367;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.active {
+    text-decoration: underline;
+    text-decoration-color: #a58115;
+    color: #a58115;
+}

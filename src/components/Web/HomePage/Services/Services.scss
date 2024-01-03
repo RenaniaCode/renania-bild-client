@@ -1,0 +1,112 @@
+#servicesBox {
+    width: 100%;
+    height: 380px;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+}
+#servicesInfo{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.serviceName, 
+.watchMoreButtonText,
+.serviceNameReverse,
+.watchMoreButtonTextReverse {
+    font-family: 'Permanent Marker', cursive;
+    color: #E3C367;
+}
+.serviceName{
+    font-size: 2.5rem;
+    padding-top: 8%;
+}
+.watchMoreButton {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 65%;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+.watchMoreButtonText {
+    position: absolute;
+    padding-top: 1.8rem;
+    width: 9rem;
+    height: 5rem;
+    z-index: +1;
+    transform: rotate(-20deg);
+}
+.watchMoreButtonText:hover {
+    text-shadow: 3px 3px white;
+}
+.serviceDescription {
+    font-size: 2rem;
+    font-family: 'Anybody 200', sans-serif;
+    margin-top: 5%;
+    margin-right: 6%;
+    color: white;
+}
+.blackButton {
+    position: absolute;
+    width: 12rem;
+    height: 6rem;
+    z-index: 0;
+}
+#exampleImg {
+    width: 253px;
+}
+
+//reverse
+
+#servicesBoxreverse {
+    width: 100%;
+    height: 380px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+.serviceNameReverse {
+    font-size: 2.5rem;
+    padding-top: 8%;
+    padding-left: 6%;
+}
+.serviceDescriptionReverse {
+    font-size: 2rem;
+    font-family: 'Anybody 200', sans-serif;
+    margin-top: 5%;
+    margin-left: 6%;
+    color: white;
+    text-align: left;
+}
+.whiteButton {
+    position: absolute;
+    width: 12rem;
+    height: 5.5rem;
+    z-index: 0;
+}
+.watchMoreButtonReverse {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 75%;
+    padding-top: 1%;
+    padding-left: 3%;
+}
+.watchMoreButtonTextReverse {
+    position: absolute;
+    padding-top: 1.8rem;
+    padding-left: 1rem;
+    width: 9rem;
+    height: 5rem;
+    z-index: +1;
+    transform: rotate(-20deg);
+}
+.watchMoreButtonTextReverse:hover {
+    text-shadow: 3px 3px #000;
+}
+
+// Scroll
+
+#servicesBox {
+    scroll-margin-top: 8rem;
+}
