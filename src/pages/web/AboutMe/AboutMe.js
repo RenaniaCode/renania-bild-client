@@ -1,12 +1,11 @@
-import React, { useState } from "react";
-import { Navbar, Footer , AboutMe } from "../../../components/Web/HomePage";
-import PortraitExample from "../../../assets/Images/Images/Portrait.jpg";
+import React from "react";
+import { Navbar, Footer, About } from "../../../components/Web/HomePage";
 
 export function AboutMe() {
   return (
     <>
       <Navbar />
-      <AboutMe />
+      <About />
       <Footer 
       instagram={"https://www.instagram.com/renaniabild?igsh=MTJoN2Z6d24weGM3bg=="}
       gmail={"mailto:renaniabild@gmail.com?subject=Servicios Fotograficos&body=Hola, me gustaria saber mas sobre tus servicios fotograficos."}

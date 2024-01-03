@@ -1,9 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { ClientLayout } from "../layouts";
-import { Galleries, Home } from "../pages/web";
+import { Galleries, Home, AboutMe } from "../pages/web";
 import { WebLayout } from "../layouts/Web/WebLayout";
-import { AboutMe } from "../components/Web/HomePage";
+
 
 
 export function WebRouter() {

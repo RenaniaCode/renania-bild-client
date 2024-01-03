@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import AboutMePicture from "../../../../assets/Images/Images/AboutMe.jpg"
-import "./AboutMe.scss"
+import React from "react";
+import AboutMePicture from "../../../../assets/Images/Images/AboutMe.jpg";
+import "./About.scss";
 
-export function AboutMe() {
+export function About() {
   return (
     <div id="aboutMeBox">
         <img src={AboutMePicture} id="aboutMePicture"></img>
