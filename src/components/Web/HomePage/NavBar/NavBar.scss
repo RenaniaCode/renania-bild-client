@@ -51,26 +51,7 @@
 
 @media only screen and (max-width: 800px) {
     .navOptions {
-        position: absolute;
-        top: -700px;
-        left: -2000px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        a {
-            display: block;
-        }
-    }
-    .navOptions.active {
-        width: 100%;
-        display: block;
-        position: absolute;
-        margin-left: auto;
-        margin-right: auto;
-        top: 30%;
-        left: 0;
-        right: 0;
-        text-align: center;
+        display: none;
     }
     #burgerButton {
         display: inline;

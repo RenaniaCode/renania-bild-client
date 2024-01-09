@@ -43,7 +43,7 @@ export function Navbar() {
         <div id="burgerButton">
         <BurgerButton clicked={clicked} handleClick={handleClick}/>
         </div>
-        <SideBar clicked={clicked} />
+        <SubNavbar />
       </nav>
     );
   }
