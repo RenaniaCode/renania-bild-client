@@ -38,6 +38,7 @@ export function Navbar() {
   } 
   if(location === "/Galleries/Potrait" || location === "/Galleries/Events" || location === "/Galleries/MyVision" ) {
     return (
+      <>
       <nav id="nav">
         <div id="navMenu">
           <a href="/">
@@ -47,10 +48,14 @@ export function Navbar() {
           <a href="#footerBox"><span className="navOptions">Contacto</span></a>
         </div>
         <div id="burgerButton">
-        <BurgerButton active={active} toggle={toggle}/>
+        <BurgerButton active={active} onClick={toggle}/>
         </div>
         <SubNavbar />
       </nav>
+      <Modal active={active} toggle={toggle}>
+        <SideBar active={active} toggle={toggle}/>
+      </Modal>
+      </>
     );
   }
 }

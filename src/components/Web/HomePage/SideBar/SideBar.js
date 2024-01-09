@@ -7,10 +7,11 @@ export function SideBar(props) {
   const {active, toggle} = props
   const location = useLocation().pathname;
   return (
-        <div id="navMenu">
-          <a href={location !== "/" ? "/Galleries/Potrait" : "#servicesBox"} ><span className="navOptions">Servicios</span></a>
-          <a href="/AboutMe"><span className="navOptions" >Sobre Mi</span></a>
-          <a href="#footerBox"><span className="navOptions">Contacto</span></a>
+    <nav id="navSidebar">
+        <div id="navSideMenu">
+          <a href="/Galleries/Potrait" ><span className="navSideOptions">Servicios</span></a>
+          <a href="/AboutMe"><span className="navSideOptions" >Sobre Mi</span></a>
         </div>
+    </nav>
   );
 }
