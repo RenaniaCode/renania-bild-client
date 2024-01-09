@@ -19,6 +19,15 @@
 #navLogo {
     width: 13rem;
 }
+
+#navLogo:hover {
+    transform: scale(1.1);
+}
+
+#burgerButton {
+    display: none;
+}
+
 .navOptions {
     font-size: 1.3rem;
     color: #E3C367;
@@ -31,3 +40,39 @@
     color: #a58115;
 }
 
+@media only screen and (max-width: 1024px) {
+    #navMenu {
+        width: 60%;
+    }
+    .navOptions {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navOptions {
+        position: absolute;
+        top: -700px;
+        left: -2000px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        a {
+            display: block;
+        }
+    }
+    .navOptions.active {
+        width: 100%;
+        display: block;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        top: 30%;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+    #burgerButton {
+        display: inline;
+    }
+}

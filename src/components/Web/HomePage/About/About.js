@@ -9,7 +9,7 @@ export function About() {
         <div id="aboutTextDiv">
             <span id="title">Sobre Mi</span>
             <span id="description">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            Mi nombre es Carlos Pérez y soy el creador de Renania Bild. Renania Bild es un proyecto fotográfico en el que busco representar mi visión y mi estilo en cada uno de los momentos capturados a través de mi cámara. Trae tus momentos más importantes y yo me encargaré de inmortalizarlos.
             </span>
         </div>
     </div>

@@ -26,7 +26,7 @@ export function Home() {
       <Services 
       reverse={false}
       title={"Mi Visión"} 
-      description={"Conoce mi estilo al inmortalizar los momentos a través de una colección mas personal"}
+      description={"Conoce mi estilo al inmortalizar los momentos a través de una colección mas personal."}
       image={MiVisionExample}
       href={"/Galleries/MyVision"}
       />
