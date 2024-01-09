@@ -49,7 +49,6 @@ export function Navbar() {
         <div id="burgerButton">
         <BurgerButton active={active} toggle={toggle}/>
         </div>
-        <SideBar active={active} toggle={toggle}/>
         <SubNavbar />
       </nav>
     );
