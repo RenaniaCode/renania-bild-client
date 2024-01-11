@@ -21,3 +21,10 @@
         margin-bottom: 20%;
     }
 }
+
+@media only screen and (max-height: 400px) {
+    .image-gallery-fullscreen-button {
+        position: fixed;
+        margin-bottom: 30%;
+    }
+}

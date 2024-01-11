@@ -17,11 +17,12 @@
     flex-direction: column;
     align-items:center;
     justify-content: center;
+    padding-top: 1rem;
 }
 
 .navSideOptions {
-    font-size: 2.5rem;
-    padding: 4rem 0rem;
+    font-size: 2rem;
+    padding: 3rem 0rem;
     color: #E3C367;
     width: 100%;
     font-family: 'Permanent Marker', cursive;
@@ -30,4 +31,17 @@
     text-decoration: underline;
     text-decoration-color: #a58115;
     color: #a58115;
+}
+
+@media only screen and (max-height: 400px) {
+    #navSideMenu {
+        padding-top: 7rem;
+    }
+    .navSideOptions {
+        font-size: 1rem;
+        padding: 1rem 0rem;
+        color: #E3C367;
+        width: 100%;
+        font-family: 'Permanent Marker', cursive;
+    }
 }
