@@ -3,36 +3,21 @@
 #GalleryBox {
     background-color: #000;
     width: 100%;
-    padding-top: 8rem;
+    padding-top: 9rem;
 };
-
-.image-gallery-content {
-    width: 70%;
-    margin: auto;
-    top: 50%;
-}
-.image-gallery-image {
-    margin: auto;
-    margin-top: 1rem;
-}
-.image-gallery-slide,
-.image-gallery-center {
-    margin: auto;
-    top: 50%;
-}
-
-.image-gallery-icon,
-.image-gallery-left-nav {
-    margin-left: 0%;
-}
-
-.image-gallery-icon,
-.image-gallery-right-nav {
-    margin-right: 0%;
-}
 
 .image-gallery-fullscreen-button {
     position: fixed;
-    margin-bottom: 60%;
-    width: 100px;
+    margin-bottom: 40%;
+
+}
+
+.fullscreen {
+    padding-top: 3rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .image-gallery-fullscreen-button {
+        margin-bottom: 20%;
+    }
 }

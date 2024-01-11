@@ -1,0 +1,77 @@
+#aboutMeBox {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutMePicture {
+    width: 30%;
+}
+
+#aboutTextDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    font-size: 2rem;
+    color: #E3C367;
+    text-align: right;
+    margin-bottom: 5rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+span {
+    color: white;
+    text-align: justify;
+    font-weight: bold;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+
+@media only screen and (max-width: 1400px) {
+    #aboutMeBox{
+        padding: 15rem 15rem 5rem 7rem;
+    }
+    #aboutMePicture{
+        width: 40%;
+    }
+    #title {
+        font-size: 2rem;
+    }
+    span {
+        width: 30rem; 
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #aboutMeBox{
+        padding: 12rem 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #aboutMePicture{
+        width: 50%;
+    }
+    #title {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    span {
+        width: 15rem; 
+        font-size: 1rem;
+    }
+}
+

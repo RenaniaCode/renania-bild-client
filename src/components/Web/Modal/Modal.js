@@ -44,6 +44,8 @@ const styles = {
         alignItems: 'center',
     },
     modal: {
+        width: '100%',
+        height: '100%',
         position: "fixed",
         zIndex: "1",
     },

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Navbar, FrontPage, Services, Footer } from "../../../components/Web/HomePage";
 import PortraitExample from "../../../assets/Images/Images/Portrait.jpg";
 import EventExample from "../../../assets/Images/Images/Events.jpg";
@@ -26,7 +26,7 @@ export function Home() {
       <Services 
       reverse={false}
       title={"Mi Visión"} 
-      description={"Conoce mi estilo al inmortalizar los momentos a través de una colección mas personal"}
+      description={"Conoce mi estilo al inmortalizar los momentos a través de una colección mas personal."}
       image={MiVisionExample}
       href={"/Galleries/MyVision"}
       />

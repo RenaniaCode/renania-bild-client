@@ -12,17 +12,12 @@
 
 @media only screen and (max-width: 700px) {
     #frontPage {
+        width: 100%;
+        height: 600px;
         background-image: url("../../../../assets/Images/Images/Ballon.jpg");
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-size: 50rem;
-    }
-}
-
-@media only screen and (max-height: 700px) {
-    #frontPage {
-        height: 41rem;
     }
 }
 
