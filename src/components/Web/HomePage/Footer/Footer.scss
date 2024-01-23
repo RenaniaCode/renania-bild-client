@@ -32,3 +32,34 @@
 .socialIcon {
     width: 3rem;
 }
+
+@media only screen and (max-height: 900px) {
+    #footerBox {
+        height: 500px;
+        padding: 7rem 0rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #footerBox {
+        flex-direction: column-reverse;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    #brands {
+        width: 70%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    #algorithmLogo {
+        width: 10rem;
+    }
+    #renaniaLogo {
+        width: 15rem;
+        padding-left: 4rem;
+    }
+}

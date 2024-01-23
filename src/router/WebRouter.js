@@ -1,8 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { ClientLayout } from "../layouts";
-import { Galleries, Home } from "../pages/web";
+import { Galleries, Home, AboutMe } from "../pages/web";
 import { WebLayout } from "../layouts/Web/WebLayout";
+
 
 
 export function WebRouter() {
@@ -21,6 +21,7 @@ export function WebRouter() {
             <Route path="/Galleries/Potrait" element={loadLayout(WebLayout, Galleries)}/>
             <Route path="/Galleries/MyVision" element={loadLayout(WebLayout, Galleries)}/>
             <Route path="/Galleries/Events" element={loadLayout(WebLayout, Galleries)}/>
+            <Route path="/AboutMe" element={loadLayout(WebLayout, AboutMe)}/>
         </Routes>
     )
 }

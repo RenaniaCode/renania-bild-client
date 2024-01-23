@@ -13,8 +13,8 @@ if (location === "/Galleries/Potrait") {
           id="imageGallery"
           items={Potrait}
           showPlayButton={false}
-          thumbnailPosition="right"
           showBullets={false}
+          showThumbnails={false}
         />
       </div>
     );
@@ -26,8 +26,8 @@ if (location === "/Galleries/Potrait") {
           id="imageGallery"
           items={MyVision}
           showPlayButton={false}
-          thumbnailPosition="right"
           showBullets={false}
+          showThumbnails={false}
         />
       </div>
     );
@@ -39,8 +39,8 @@ if (location === "/Galleries/Potrait") {
           id="imageGallery"
           items={Events}
           showPlayButton={false}
-          thumbnailPosition="right"
           showBullets={false}
+          showThumbnails={false}
         />
       </div>
     );
