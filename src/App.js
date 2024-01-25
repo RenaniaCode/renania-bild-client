@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { WebRouter, AdminRouter } from "./router";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <WebRouter/>
       <AdminRouter/>
-    </BrowserRouter>
+    </HashRouter>
   );                                            
 }
 
