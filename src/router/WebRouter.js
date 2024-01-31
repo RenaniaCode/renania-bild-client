@@ -17,7 +17,7 @@ export function WebRouter() {
 
     return (
         <Routes>
-            <Route path="/*" element={loadLayout(WebLayout, Home)}/>
+            <Route path="/" element={loadLayout(WebLayout, Home)}/>
             <Route path="/Galleries/Potrait" element={loadLayout(WebLayout, Galleries)}/>
             <Route path="/Galleries/MyVision" element={loadLayout(WebLayout, Galleries)}/>
             <Route path="/Galleries/Events" element={loadLayout(WebLayout, Galleries)}/>
