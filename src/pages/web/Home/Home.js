@@ -19,14 +19,14 @@ export function Home() {
       <Services 
       reverse={true}
       title={"Eventos"} 
-      description={"Llevaré tu imagen al siguiente nivel. Conoce un poco de mis trabajos de retrato."}
+      description={"Conoce el nivel visual de mis eventos cubiertos. El siguiente podría ser el tuyo."}
       image={EventExample}
       href={"/Galleries/Events"}
       />
       <Services 
       reverse={false}
       title={"Mi Visión"} 
-      description={"Conoce mi estilo al inmortalizar los momentos a través de una colección mas personal."}
+      description={"Disfruta de mi estilo fotográfico a través de una colección de trabajos más personales."}
       image={MiVisionExample}
       href={"/Galleries/MyVision"}
       />
