@@ -45,3 +45,20 @@
         font-family: 'Permanent Marker', cursive;
     }
 }
+
+@media only screen and (max-height: 500px) {
+    #navSideMenu {
+        padding-top: 7rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .navSideOptions {
+        font-size: 1rem;
+        padding: 1rem 0rem;
+        color: #E3C367;
+        width: 100%;
+        font-family: 'Permanent Marker', cursive;
+    }
+}
