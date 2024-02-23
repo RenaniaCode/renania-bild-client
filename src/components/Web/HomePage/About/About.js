@@ -5,7 +5,7 @@ import "./About.scss";
 export function About() {
   return (
     <div id="aboutMeBox">
-        <img src={AboutMePicture} id="aboutMePicture"></img>
+        <img src={AboutMePicture} id="aboutMePicture" oncontextmenu="return false"></img>
         <div id="aboutTextDiv">
             <span id="title">Sobre Mi</span>
             <span id="description">
