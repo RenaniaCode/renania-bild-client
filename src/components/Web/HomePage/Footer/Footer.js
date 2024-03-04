@@ -11,7 +11,7 @@ export function Footer(props) {
   return (
     <div id="footerBox">
         <div id="brands">
-            <a>
+            <a href="/admin/register">
             <img src={AlgorithmLogo} alt="10001 Algorithm Logo" id="algorithmLogo"/>
             </a>
             <a href="/">
